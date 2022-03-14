@@ -30,5 +30,9 @@ DESC LIMIT 100;
 
 
 I've also prepared 2 versions of the sql -- one works for older versions of mysql, while the other for recent/latest versions. Removed UNSIGNED for the latest and added CHECK constraints instead.
+
   *sql_deprecated.sql > for older versions of MySQL, may contain warnings when run on later versions
+  
   *sql_for_latest_versions2.sql > for recent/latest versions of MySQL; removed deprecated features to avoid warnings
+  
+  
