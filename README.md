@@ -3,7 +3,9 @@
 One of the changes I made is to add foreign keys on the tables since the orignal script doesn't have any defined. Foreign keys help related data across tables consistent.
 I also made sure the data types are the same for the columns on child and its referenced/parent tables.  This is to avoid data conversions when joining the columns which may lead to poor query performance.
 
-Please see below Explain and Query Runtime on fetching Top 100 employees with highest salary (multiple joins). Results based on 10000 employee records.
+Please see uploaded Explain and Query Runtime on fetching Top 100 employees with highest salary (multiple joins) on git repo. Results based on 10000 employee records.
+
+Query:
 
 SELECT e.employee_id, 
 e.first_name, 
