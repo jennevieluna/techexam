@@ -178,8 +178,8 @@ INSERT INTO HR.`job_history` (`EMPLOYEE_ID`, `START_DATE`, `END_DATE`, `JOB_ID`,
 CREATE TABLE IF NOT EXISTS HR.jobs (
   JOB_ID varchar(10) NOT NULL,
   JOB_TITLE varchar(35) NOT NULL,
-  MIN_SALARY decimal(10,2) UNSIGNED DEFAULT NULL, --added UNSIGNED and 2 decimal places
-  MAX_SALARY decimal(10,2) UNSIGNED DEFAULT NULL, --added UNSIGNED and 2 decimal places
+  MIN_SALARY decimal(10,2) UNSIGNED DEFAULT NULL, --added UNSIGNED and 2 decimal places ; extended to decimal(10,2)
+  MAX_SALARY decimal(10,2) UNSIGNED DEFAULT NULL, --added UNSIGNED and 2 decimal places ; extended to decimal(10,2)
   PRIMARY KEY (JOB_ID)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
